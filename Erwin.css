@@ -1,0 +1,41 @@
+body{
+background:url(tree.jpg);
+text-align:center;
+}
+footer{
+text-align:center;
+}
+input[type="text"]:focus ,input[type="password"]:focus  {
+ background-color: lightblue;
+ border: 3px solid #555;
+}
+
+img {
+  border-radius:50%;
+  width: 200px;
+  height: 200px;
+  margin-left: 20%;
+  margin-right: 50%;
+}
+.main{
+  background:rgba(255,255,255,0.7);
+  border:1px blue solid;
+  margin: 8% 750px 30px 750px;
+  padding: 30px;
+  height: 400px;
+  width: 350px;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  form {
+    margin-left:0;
+    width:100% ;
+  }
+}
